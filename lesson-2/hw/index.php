@@ -7,7 +7,6 @@
                 case '+':
                     $result = $operandA + $operandB;
                     break;
-
                 case '-':
                     $result = $operandA - $operandB;
                     break;
