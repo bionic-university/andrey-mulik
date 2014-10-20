@@ -17,7 +17,11 @@
                 case '/':
                     $result = $operandA / $operandB;
                     break;
+                default:
+                    $result = "Ошибка, программа работает только с этими операторами: +, -, *, /";
+                    break;
             }
+            $result = "Результат: " . $result . "\r\n";
             print($result);
         }
     }
