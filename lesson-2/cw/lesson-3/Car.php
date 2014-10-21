@@ -2,8 +2,9 @@
 
 class Car
 {
+    private $engine;
 
-    private function rotateKey()
+    final public function rotateKey()
     {
         $this->detonateTheFuel();
         $this->rotateTheEngine();
