@@ -6,7 +6,12 @@ use Elibyy\Reader;
 
 if ($argv[1] !== null) {
     $reader = new Reader($argv[1]);
-    $reader->unzip();
+    $status = $reader->unzip();
+    if ($status !== false) {
+        $result = "Archive unpacked successfully\r\n";
+    } else {
+        $result = "Archive could not unpack\r\n";
+    }
 } else {
     $result = "Insert file name\r\n";
 }
