@@ -19,6 +19,6 @@ class Car
 
     private function rotateTheEngine()
     {
-
+        $this->engine->eatTheOil();
     }
 }
