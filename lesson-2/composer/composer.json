@@ -1,0 +1,12 @@
+{
+    "name": "neo/composer",
+    "require": {
+        "elibyy/zip": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "neomulik",
+            "email": "neomulik@hotmail.com"
+        }
+    ]
+}
